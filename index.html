@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="assets/Style/main.css">
-  <title>Document</title>
-</head>
-<body>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/Style/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>To-Do List</h2>
+      <div class="input-container">
+        <input type="text" id="taskInput" placeholder="Enter a task..." />
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="taskList"></ul>
+    </div>
 
-  <script src="assets/Scripts/main.js"></script>
-</body>
+    <script src="assets/Scripts/main.js"></script>
+  </body>
 </html>
