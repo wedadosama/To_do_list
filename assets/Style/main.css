@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background: url(../images/481299803_644641788081523_260112588567793451_n.jpg) no-repeat center center fixed;
   background-size: cover;
   display: flex;
@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 .container {
-  background: white;
+  background: rgb(63, 58, 58);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -17,6 +17,9 @@ body {
 }
 h2 {
   text-align: center;
+ font-weight: bold;
+ font-size: 40px;
+ color: #708821;
 }
 .input-container {
   display: flex;
@@ -45,7 +48,7 @@ ul {
   margin-top: 15px;
 }
 li {
-  background: #fff;
+  background: #2a7707;
   padding: 10px;
   border-radius: 5px;
   display: flex;
